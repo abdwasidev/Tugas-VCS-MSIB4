@@ -1,8 +1,8 @@
-async function f() {
+async function getAsync() {
     console.log('Async function.');
     return Promise.resolve(1);
 }
 
-f().then(function(result) {
+getAsync().then(function(result) {
     console.log(result)
 });
